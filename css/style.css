@@ -1,16 +1,142 @@
 /*-------------- HEADER -------------- */
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Khand', sans-serif;
+    color: white;
+    
+}
+
 a{
     text-decoration: none;
 }
 
-body{
-    background-color: aqua;
+header{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Streulichtfilterung.3.P1023258.jpg/540px-Streulichtfilterung.3.P1023258.jpg);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+header h1 img{
+    width: 600px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+
+header h1{
+    margin: 0;
+    padding: 0;
+}
+
+.Starquiz{
+    margin: 0;
+    padding-left: 30px;
+    
+}
+
+header #header_direita img{
+    width: 300px;
+    padding-top: 80px;
+    margin-left: -50px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+    
+}
+
+nav ul li{
+    margin-right: 100px;
+    padding-top: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+button{
+    width: 170px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+#botaoFilmes{
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-azul-gradiente-de-luxo-abstrato-azul-escuro-liso-com-vinheta-preta_1258-48251.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    border: solid yellow 2px;
+}
+
+#botaoTutorial{
+    background-image: url(https://img.freepik.com/fotos-gratis/luxo-abstrato-desfocar-gradiente-cinza-escuro-e-preto-usado-como-parede-de-estudio-de-fundo-para-exibir-seus-produtos_1258-54562.jpg?w=360);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    margin-left: 30px;
+    border: solid yellow 2px;
+}
+
+.botoes{
+    display: flex;
+    padding-left: 130px;
+    margin-top: -50px;
+    
+    
 }
 
 /*-------------- TUTORIAL -------------- */
 
+.tutorial{
+    text-align: center;
+    background-image: url(../img/fundoTutorial.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -15px;
+}
+
+.tutorial h2{
+    margin: 0;
+    padding-top: 20px;
+    font-size: 40px;
+
+}
+
+
+
 /*-------------- FILMES -------------- */
 
-/*-------------- SOBRE -------------- */
+.filmes{
+    text-align: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Streulichtfilterung.3.P1023258.jpg/540px-Streulichtfilterung.3.P1023258.jpg);
+}
 
+.filmes h2{
+    font-size: 40px;
+}
+
+.imagensFilmes{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+
+.imagensFilmes div img{
+    border: solid white 2px;
+    margin-bottom: 20px;
+}
+
+/*-------------- SOBRE -------------- */
+.sobre{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Streulichtfilterung.3.P1023258.jpg/540px-Streulichtfilterung.3.P1023258.jpg);
+
+}
 /*-------------- FOOTER -------------- */
+footer{
+    background-image: url(https://img.freepik.com/fotos-gratis/luxo-abstrato-desfocar-gradiente-cinza-escuro-e-preto-usado-como-parede-de-estudio-de-fundo-para-exibir-seus-produtos_1258-54562.jpg?w=360);
+}
+
