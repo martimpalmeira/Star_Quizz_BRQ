@@ -1,126 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Wars - Quiz</title>
+    <title>Star Quiz</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!------------------ HEADER --------------------->
-    <header>
-        <div class="header_esquerda">
+    <div class="fundoEscuro">
+        <header>
             <nav>
                 <ul>
-                    <a href="#">
-                        <li>Home</li>
-                    </a>
-                    <a href="#">
-                        <li>Tutorial</li>
-                    </a>
-                    <a href="#">
-                        <li>Filmes</li>
-                    </a>
-                    <a href="#">
-                        <li>Quiz</li>
-                    </a>
-                    <a href="#">
-                        <li>Sobre</li>
-                    </a>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">INTRODUÇÃO</a></li>
+                    <li><a href="#">FILMES</a></li>
+                    <li><a href="#">PERSONAGENS</a></li>
                 </ul>
             </nav>
-            <div class="Starquiz">
-                <h1><img src="img/starwarslogo.png"></h1>
-            </div>
-            <blockquote>Que a força esteja com você</blockquote>
-            <div class="botoes">
-                <button type="button" id="botaoFilmes"><img src="img/estrelamorte.png"></button>
-                <button type="button" id="botaoTutorial"><img src="img/play.png"></button>
-            </div>
-        </div>
-        <div id="header_direita">
-            <img src="img/image 3 (1).png">
-        </div>
-    </header>
 
-    <!------------------ TUTORIAL --------------------->
-    <section class="tutorial">
-        <h2>Tutorial</h2>
+            <div class="banner">
+                <div class="logoStar">
+                    <img width="600px" src="img/logoStarWarsBranca.png">
+                </div>
+                <p>May the force be with you</p>
+                <div class="botaoBanner">
+                    <button type="button">QUIZ</button>
+                </div>
+            </div>
 
-        <iframe width="640" height="400" src="https://www.youtube.com/embed/sH1iUuETTtM" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+
+        </header>
+    </div>
+    <section class="introducao">
+        <h2>Introdução</h2>
+        <div class="txt">
+            <p>"Há muito tempo, em uma galáxia muito, muito distante... formada por planetas de
+                todos
+                tipos:
+                desérticos, super habitados e selvagens, mas todos com a licença científica para ter a mesma gravidade e
+                atmosfera igualmente habitáveis. Ficção científica? Infelizmente, não. Star wars é uma história de
+                fantasia que engloba
+                elementos da literatura e do
+                cinema, como romance, drama, humor e luta entre bem e mal."</p>
+        </div>
     </section>
 
-    <!------------------ FILMES --------------------->
     <section class="filmes">
-        <h2>Filmes</h2>
-        <div class="imagensFilmes">
-            <div><a href="#"><img height="300px"
-                        src="https://upload.wikimedia.org/wikipedia/pt/thumb/3/30/Star_Wars_Epis%C3%B3dio_1_Amea%C3%A7a_Fantasma.jpg/240px-Star_Wars_Epis%C3%B3dio_1_Amea%C3%A7a_Fantasma.jpg"></a>
-            </div>
-            <div><a href="#"><img src="https://br.web.img3.acsta.net/medias/nmedia/18/92/58/12/20207108.jpg"
-                        height="300px"></a></div>
-            <div><a href="#"><img
-                        src="https://static.wikia.nocookie.net/dublagempedia/images/3/39/20207204.jpg-r_1280_720-f_jpg-q_x-xxyxx.jpg/revision/latest?cb=20210902041143&path-prefix=pt-br"
-                        height="300px
-                        "></a>
-            </div>
-            <div><a href="#"><img src="https://m.media-amazon.com/images/I/51c6S4kGFmL.jpg" height="300px
-                "></a></div>
-            <div><a href="#"><img
-                        src="https://www.cafecomfilme.com.br/media/k2/items/cache/8b8374e6e7bc3003f8521eb18e56889a_XL.jpg?t=20200521_003122"
-                        height="300px"></a></div>
-            <div><a href="#"><img src="https://br.web.img3.acsta.net/pictures/14/05/19/22/57/276761.jpg"
-                        height="300px"></a></div>
-            <div><a href="#"><img
-                        src="https://upload.wikimedia.org/wikipedia/pt/thumb/a/ae/Starwars_06.jpg/250px-Starwars_06.jpg"
-                        height="300px"></a></div>
-            <div><a href="#"><img
-                        src="https://upload.wikimedia.org/wikipedia/pt/thumb/0/0e/Star_Wars_The_Last_Jedi.png/250px-Star_Wars_The_Last_Jedi.png"
-                        height="300px"></a></div>
-        </div>
-        <button>Clique aqui e descubra qual personagem de Star Wars você sería</button>
-    </section>
-
-    <!------------------ SOBRE --------------------->
-    <section class="sobre">
-        <h2>Sobre o desenvolvedor</h2>
-        <div class="sobreAbaixoh2">
-            <div class="sobreEsquerda">
-                <p>Meu nome é Martim Palmeira, tenho 23 anos sou programador e jovem Padawan na horas vagas. Gosto de
-                    ouvir
-                    música, assistir filmes, animes e jogos online. Estou cursando Engenharia de Software e meu sonho é
-                    melhorar
-                    de alguma forma a vida de outras pessoas com a tecnologia. </p>
-                <div class="contato">
-                    <h3>Contato</h3>
-                    <div class="contatoimagens">
-                        <a href="#"><img src="img/githublogo.png"></a>
-                        <a href="#"><img src="img/linkedinlogo.png"></a>
-                        <a href="#"><img src="img/arroba.png"></a>
+        <div class="container">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://static.wikia.nocookie.net/ptstarwars/images/0/05/Episodio1.png/revision/latest?cb=20200323171122"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Episódio I – A Ameaça Fantasma</h5>
+                            <p class="card-text">Obi-Wan e seu mentor embarcam em uma perigosa aventura na tentativa de...</p>
+                            <a href="#" class="btn btn-warning">Assistir trailer</a>
+                        </div>
                     </div>
                 </div>
-
-            </div>
-            <div class="sobreDireita">
-                <img src="img/eu-removebg-preview.png">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://br.web.img3.acsta.net/medias/nmedia/18/92/58/12/20207108.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Episódio 2 – Ataque dos Clones</h5>
+                            <p class="card-text">Tentado por promessas de poder, Anakin Skywalker se aproxima de Darth
+                                Sidious e...</p>
+                            <a href="#" class="btn btn-warning">Assistir trailer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/92/58/33/20207204.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Episódio III – A Vingança dos Sith</h5>
+                            <p class="card-text">As Guerras Clônicas estão em pleno andamento e Anakin Skywalker mantém
+                                um elo de...</p>
+                            <a href="#" class="btn btn-warning">Assistir trailer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://2.bp.blogspot.com/-tHtl2N1DMAE/Vyn9drdDmxI/AAAAAAAAXeU/CHa5x9ltKvsoI-PVDNw_51GQRZ_Ld_CpwCLcB/s1600/Star-Wars-IV-poster.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Episódio IV – Uma Nova Esperança</h5>
+                            <p class="card-text">A princesa Leia é mantida refém pelas forças imperiais comandadas por
+                                Darth Vader...</p>
+                            <a href="#" class="btn btn-warning">Assistir trailer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/36130eca001baf033aaff6778b21abf5bcfa0d16f944074c07e5e28da7f792bc._RI_V_TTW_.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Episódio V – O Império Contra-Ataca</h5>
+                            <p class="card-text">Yoda treina Luke Skywalker para ser um cavaleiro Jedi. Han Solo
+                                corteja a Princesa...</p>
+                            <a href="#" class="btn btn-warning">Assistir trailer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://flxt.tmsimg.com/assets/p8890_p_v8_ae.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Episódio VI - O Retorno de Jedi</h5>
+                            <p class="card-text">Luke Skywalker e seus amigos viajam para Tatooine e salvam seu amigo
+                                Han Solo do lorde...</p>
+                            <a href="#" class="btn btn-warning">Assistir trailer</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+    </section>
+    <h2>Personagens</h2>
+    <section class="personagens">
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.garotasgeeks.com/wp-content/uploads/2013/11/darth-vader-600x375.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Darth Vader</h5>
+                        <p>Era um menino prodígio, talentoso piloto de “pods”. É então descoberto pelo mestre Jedi
+                            Qui-Gon Jinn, depois que esse fez um pouso de emergência em Tatooine...</p>
+                        <button type="button" class="btn btn-light">Clique aqui para saber mais</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://media.contentapi.ea.com/content/dam/ea/walrus/characters/luke/hero/luke-skywalker-hero-xlg.jpg.adapt.crop16x9.1023w.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Luke Skywalker</h5>
+                        <p>Nascido em 19 ABY em Polis Massa, filho do Cavaleiro Jedi caído Anakin Skywalker, que mais
+                            tarde se tornou seu inimigo, Darth Vader, o Lorde Negro dos Sith...</p>
+                        <button type="button" class="btn btn-light">Clique aqui para saber mais</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://starwarsblog.starwars.com/wp-content/uploads/2021/03/which-leia-are-you-TALL.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Leia Organa</h5>
+                        <p>Leia Organa (nascida Leia Amidala Skywalker) era uma Humana sensível à Força que serviu como
+                            Princesa de Alderaan, membro do Senado Imperial...</p>
+                        <button type="button" class="btn btn-light">Clique aqui para saber mais</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://bordalo.observador.pt/v2/rs:fill:900/c:770:433:nowe:0:0/q:86/plain/https://s3.observador.pt/wp-content/uploads/2015/12/star-wars-alternate-ending-vader-father-yoda_770x433_acf_cropped.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Yoda</h5>
+                        <p>Yoda foi um dos Grandes Mestres do Alto Conselho Jedi e seu Tempo durante os últimos séculos
+                            da República Galáctica e da Ordem Jedi lhe fizeram uma figura...</p>
+                        <button type="button" class="btn btn-light">Clique aqui para saber mais</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.sideshow.com/storage/product-images/2172/r2-d2-deluxe_star-wars_gallery_5c4fb7e7e5e21.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>R2-D2</h5>
+                        <p>Leia Organa (nascida Leia Amidala Skywalker) era uma Humana sensível à Força que serviu como
+                            Princesa de Alderaan, membro do Senado Imperial...</p>
+                        <button type="button" class="btn btn-light">Clique aqui para saber mais</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://t.ctcdn.com.br/sg4O6hrCWynoL2eDYVdh93v6ChQ=/1400x788/smart/i349304.jpeg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Chewbacca</h5>
+                        <p>Leia Organa (nascida Leia Amidala Skywalker) era uma Humana sensível à Força que serviu como
+                            Princesa de Alderaan, membro do Senado Imperial...</p>
+                        <button type="button" class="btn btn-light">Clique aqui para saber mais</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
     </section>
 
-    <!------------------ FOOTER --------------------->
-    <footer>
-        <p>© 2022 Copyright. All rights reserved. Made by Martim Palmeira</p>
-    </footer>
+    <section class="quiz">
+        <h2>Quiz</h2>
+    </section>
 
+    <div class="fundoEscuro2">
+        <footer>
+
+        </footer>
+    </div>
 </body>
 
 </html>
