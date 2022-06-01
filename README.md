@@ -17,8 +17,8 @@ Css:
 
 Bootstrap: 
 Utilizar e customizar recursos  
- -navbar, 
- -carrossel de imagens, 
+ - navbar, 
+ - carrossel de imagens, 
  - botões 
  - grid.
 
