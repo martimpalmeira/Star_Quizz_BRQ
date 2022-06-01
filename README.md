@@ -7,7 +7,7 @@ Aprendizados:
 Html: 
 - Organizar o conteúdo utilizando tags específicas para cada sessão. Por exemplo: Header, Section, Footer.-
 - Aprendi a separar as sessões por comentários para organizar o código.
-- 
+- Utilizar as principais tags para: listas, cabeçalho, links, parágrafos, container, e seus respectivos atributos.
 
 Css: 
 - Colocar imagens no back-ground e utilizar recursos de opacity e size pra editá-las. 
