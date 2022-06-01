@@ -34,11 +34,15 @@ header{
     justify-content: center;
 }
 
+
+
 .banner p {
     text-align: center;
     color: white;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+   
 }
 
 .botaoBanner{
@@ -46,19 +50,25 @@ header{
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     
+    
 }
 
-.botaoBanner button{
+.botaoBanner a{
     width: 160px;
     height: 50px;
     border-radius: 5px;
     color: white;
     background-color: transparent;
     border: solid 2px white;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
 }
 
-.botaoBanner button:hover{
-    background-color: #2b2a2a;
+.botaoBanner a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(18, 109, 249);
     background-size: 100%;
     
     transition: 2s;
@@ -81,8 +91,10 @@ nav ul li a{
     text-decoration: none;
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
+    color: white;
+    text-shadow: 3px 3px 3px black;
 }
 
 
@@ -91,17 +103,17 @@ nav ul li a::after{
     content: '';
     width:0%;
     height: 4px;
-    background: #242222;
+    background: #ffffff;
     display: block;
     margin: auto;
     transition: 0.5s;
-    color: inherit;
+    color: white;
     
 }
 
 nav ul li a:hover::after{
     width: 100%;
-    color: inherit;
+    color: white;
    
 }
 
@@ -152,13 +164,13 @@ nav ul{
 
 .introducao p{
     font-size: 20px;
-    width: 60%;
+    width: 70%;
     font-style: italic;
     font-family: 'Poppins', sans-serif;;
 }
 
 
-/*----------------------------------------*/
+/*-----------------FILMES-----------------------*/
 .filmes img{
     height: 400px;
     
@@ -190,11 +202,12 @@ nav ul{
 
 .card:hover{
     background-color: rgb(231, 231, 231);
-    transition: 1s;
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 
-/*----------------------------------------*/
+/*----------------PERSONAGENS------------------------*/
 
 .personagens {
     display: flex;
@@ -230,20 +243,66 @@ h2{
     width: 60%;
 }
 
+/*--------------QUIZ---------------------*/
+
+
+
+.quiz{
+    text-align: center;
+    height: 600px;
+}
+
+.quiz a{
+    width: 20%;
+    height: 50px;
+}
+
+.quiz .quizTop{
+    display: flex;
+    justify-content: end;
+    padding-left: 50px;
+    width: 100%;
+   
+}
+
+.quiz img{
+    
+    
+}
+
+.quiz p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.quiz a{
+    text-align: center;
+    width: auto;
+}
+
+
+/*----------------FOOTER-------------------*/
 
 
 footer{
-    height: 400px;
+    height: 150px;
     margin-top: 200px;
-    background-image: url(https://ciatoy.vteximg.com.br/arquivos/ids/202577/220309-CiaToy-Banners-1900x588-v1-sw.png?v=637824548721430000);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    opacity: 0.4;
-}
-
-.fundoEscuro2{
-    height: 400px;
-    width:100%;
-    background-color: black;
+    background-image: url(../img/fundoEstrelas.png);
+  
+   
     
 }
+
+footer p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+    
+}
+
