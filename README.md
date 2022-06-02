@@ -36,3 +36,7 @@ Dificuldades:
 - Mesmo utilizando text-decoration:none, os links da navbar continuavam ficando azul.
 - Deixar o site 100% responsível.
 - Administrar o tempo. Gostaría de fazer mais páginas
+
+
+Link GitHub Pages:
+https://martimpalmeira.github.io/Star_Quizz_BRQ/
